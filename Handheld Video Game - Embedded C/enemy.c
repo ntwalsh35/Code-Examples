@@ -1,0 +1,45 @@
+/*
+ * enemy.c
+ *
+ *  Created on: Dec 12, 2021
+ *      Author: ntwal
+ */
+
+/*
+**  Image data for enemy
+*/
+
+#include "enemy.h"
+
+/*
+**  Image data for enemy
+*/
+
+const uint8_t enemyBitmaps[] =
+{
+    0x00, 0x00, 0x00, //
+    0x0F, 0xFF, 0x00, //     ############
+    0x3F, 0xFF, 0xC0, //   ################
+    0x30, 0x00, 0xC0, //   ##            ##
+    0x60, 0x00, 0x60, //  ##              ##
+    0x60, 0x00, 0x60, //  ##              ##
+    0x61, 0x04, 0x60, //  ##    #     #   ##
+    0x61, 0x04, 0x60, //  ##    #     #   ##
+    0x60, 0x00, 0x60, //  ##              ##
+    0x60, 0x20, 0x60, //  ##       #      ##
+    0x60, 0x00, 0x60, //  ##              ##
+    0x60, 0xF0, 0x60, //  ##     ####     ##
+    0x63, 0xFC, 0x60, //  ##   ########   ##
+    0x61, 0x54, 0x60, //  ##    # # # #   ##
+    0x60, 0x00, 0x60, //  ##              ##
+    0x60, 0x00, 0x60, //  ##              ##
+    0x30, 0x00, 0xC0, //   ##            ##
+    0x3F, 0xFF, 0xC0, //   ################
+    0x0F, 0xFF, 0x00, //     ############
+    0x00, 0x00, 0x00, //
+};
+
+/* Bitmap sizes for enemy */
+const uint8_t enemyWidthPixels = 20;
+const uint8_t enemyHeightPixels = 20;
+
